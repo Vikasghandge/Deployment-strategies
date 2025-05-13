@@ -8,7 +8,7 @@ metadata:
 spec:
   replicas: 10
   selector:
-    matchLabel: 
+    matchLabels: 
       app: blue
   template: 
     metadata:
