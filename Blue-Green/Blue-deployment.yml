@@ -8,4 +8,5 @@ spec:
   replicas: 10
   selector:
     matchLabel: 
-      app:     
+      app: blue
+  templ        
