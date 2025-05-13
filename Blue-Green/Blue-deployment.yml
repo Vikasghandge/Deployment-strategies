@@ -30,7 +30,7 @@ metadata:
   name:  blue-service
 spec:
   selector:
-    app:  Selector Label
+    app: app-blue
   type:  LoadBalancer | ClusterIP | NodePort
   ports:
   - name:  name-of-the-port
