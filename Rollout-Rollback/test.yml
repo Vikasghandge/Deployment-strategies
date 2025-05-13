@@ -1,0 +1,33 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: my-app-container
+        image: nginx:1.21   # Version 1
+        ports:
+        - containerPort: 80 
+
+ # here are steps to how to rollout and rollback
+ # first of all apply this deployment file
+ # kubectl describe pod | grep Image  
+ # it should be nginx:1.21
+ # check your image version.
+ # kubectl set image deployment/my-app nginx=nginx:1.25 --record
+ # kubectl rollout status deployment/my-app
+ # kubectl get pods
+ # now check the version of image i should be nginx:1.25
+ # if you want to go backack to previous version 
+ # kubectl rollout undo deployment/my-app
+ #        
