@@ -13,4 +13,6 @@ spec:
     metadata:
      labels: 
       app: blue
-sp              
+    spec: 
+      containera:
+                    
