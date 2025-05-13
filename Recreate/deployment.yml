@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rolling-update
+  labels:
+    app: rolling
+spec:
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  replicas: 20
+  selector:
+    matchLabels:
+      app: rolling
+  template:
+    metadata:
+      labels:
+        app: rolling
+    spec:
+      containers:
+      - name: rolling-container
+        image: httpd # Replace with your Docker image
+        ports:
+        - containerPort: 3000  # Replace with the port your app runs on
