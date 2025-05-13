@@ -10,5 +10,5 @@ minikube version
 # minikube status should ruuning everything
 # minikube ip  -- this will print ip
 # minikube start --driver=docker --force
-# kubectl get pods -A
+# kubectl get pods -A --
 #
