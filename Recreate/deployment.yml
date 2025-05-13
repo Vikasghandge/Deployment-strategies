@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rolling-update
+  name: Recreate
   labels:
-    app: rolling
+    app: Recrate
 spec:
   strategy:
     rollingUpdate:
