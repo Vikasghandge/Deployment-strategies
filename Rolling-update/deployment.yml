@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rolling-update
+  name: Recreate
   labels:
-    app: rolling
+    app: Recreate
 spec:
   strategy:
     type: Recrate
   replicas: 20
   selector:
     matchLabels:
-      app: rolling
+      app: r
   template:
     metadata:
       labels:
