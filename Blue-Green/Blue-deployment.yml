@@ -4,4 +4,5 @@ metadata:
   name: blue-service
   labels:
     app: blue
-    
+spec:
+  repl    
