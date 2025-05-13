@@ -24,4 +24,5 @@ spec:
         - containerPort: 80            
 
 ---
-apiVersion          
+apiVersion: v1 
+kind:           
