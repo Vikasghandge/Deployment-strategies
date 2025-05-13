@@ -6,10 +6,7 @@ metadata:
     app: Recrate
 spec:
   strategy:
-    rollingUpdate:
-      maxSurge: 25%
-      maxUnavailable: 25%
-    type: RollingUpdate
+    type: Rec
   replicas: 20
   selector:
     matchLabels:
