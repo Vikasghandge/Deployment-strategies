@@ -10,10 +10,12 @@ spec:
   selector:
     matchLabels: 
       app: app-blue
+      version: blue
   template: 
     metadata:
      labels: 
       app: blue
+      
     spec: 
       containers: 
       - name: blue-service
