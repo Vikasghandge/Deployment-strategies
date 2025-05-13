@@ -22,5 +22,6 @@ spec:
         image: nginx:1.14.1
         ports:
         - containerPort: 80            
-        
-          
+
+---
+apiVersion          
