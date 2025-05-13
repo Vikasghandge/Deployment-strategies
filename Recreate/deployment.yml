@@ -1,23 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Recreate
+  name: recreate
   labels:
-    app: Recreate
+    app: recreate
 spec:
   strategy:
     type: Recreate
-  replicas: 20
+  replicas: 10  # Usually 1 is enough for Recreate strategy
   selector:
     matchLabels:
-      app: Recreate
+      app: recreate
   template:
     metadata:
       labels:
-        app: Recreate
+        app: recreate
     spec:
       containers:
       - name: recreate-container
-        image: httpd # Replace with your Docker image
+        image: nginx:latest  # Replace with your app's image
         ports:
-        - containerPort: 3000  # Replace with the port your app runs on
+        - containerPort: 80  # httpd typically uses port 80
+
