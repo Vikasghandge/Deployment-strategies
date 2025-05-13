@@ -7,4 +7,5 @@ metadata:
 spec:
   replicas: 10
   selector:
-    matchLabe    
+    matchLabel: 
+      app:     
