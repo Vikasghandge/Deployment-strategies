@@ -4,6 +4,7 @@ metadata:
   name: blue-service
   labels:
     app: blue
+    version
 spec:
   replicas: 10
   selector:
@@ -18,4 +19,4 @@ spec:
       - name: blue-service
         image: nginx:1.14.1
         ports:
-        - containerPort:              
+        - containerPort: 80              
