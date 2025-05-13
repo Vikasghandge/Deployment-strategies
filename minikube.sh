@@ -7,4 +7,5 @@ minikube version
 
 
 # imp commands 
-# minikube status should ruuning 
+# minikube status should ruuning everything
+#
