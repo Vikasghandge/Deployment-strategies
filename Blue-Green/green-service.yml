@@ -1,0 +1,25 @@
+# green-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-green
+  labels:
+    app: myapp
+    version: green
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: myapp
+      version: green
+  template:
+    metadata:
+      labels:
+        app: myapp
+        version: green
+    spec:
+      containers:
+      - name: myapp
+        image: ghandgevikas/env-green:v1
+        ports:
+        - containerPort: 80
