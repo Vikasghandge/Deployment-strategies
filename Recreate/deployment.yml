@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: Recreate
   labels:
-    app: Recrate
+    app: Recreate
 spec:
   strategy:
     type: Recreate
