@@ -14,7 +14,7 @@ spec:
   template:
     metadata:
       labels:
-        app: create
+        app: Recreate
     spec:
       containers:
       - name: Recreate-container
