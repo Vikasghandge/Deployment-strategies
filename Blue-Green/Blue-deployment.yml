@@ -27,7 +27,7 @@ spec:
 apiVersion: v1 
 kind: Service
 metadata:
-  name:  Service Name
+  name:  blue-service
 spec:
   selector:
     app:  Selector Label
