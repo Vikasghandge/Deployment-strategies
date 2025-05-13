@@ -17,7 +17,7 @@ spec:
         app: create
     spec:
       containers:
-      - name: Recrate-container
+      - name: Recreate-container
         image: httpd # Replace with your Docker image
         ports:
         - containerPort: 3000  # Replace with the port your app runs on
