@@ -5,4 +5,5 @@ metadata:
   labels:
     app: blue
 spec:
-  repl    
+  replicas: 10
+      
