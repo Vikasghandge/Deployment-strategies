@@ -9,7 +9,7 @@ spec:
   replicas: 10
   selector:
     matchLabels: 
-      app: blue
+      app: app-blue
   template: 
     metadata:
      labels: 
