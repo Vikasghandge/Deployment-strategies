@@ -9,4 +9,4 @@ minikube version
 # imp commands 
 # minikube status should ruuning everything
 # minikube ip  -- this will print ip
-# mink
+# minikube start --driver
