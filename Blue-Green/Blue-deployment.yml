@@ -15,7 +15,7 @@ spec:
     metadata:
      labels: 
       app: blue
-      
+      version: blue
     spec: 
       containers: 
       - name: blue-service
