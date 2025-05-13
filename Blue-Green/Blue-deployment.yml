@@ -31,7 +31,7 @@ metadata:
 spec:
   selector:
     app: app-blue
-  type:  LoadBalancer | ClusterIP | NodePort
+  type:  LoadBalancer 
   ports:
   - name:  name-of-the-port
     port:  80
