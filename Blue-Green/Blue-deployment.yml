@@ -33,6 +33,6 @@ spec:
     app: app-blue
   type:  LoadBalancer 
   ports:
-  - name:  name-of-the-port
+  - name:  80
     port:  80
     targetPort:  8080          
