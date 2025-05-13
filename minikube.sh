@@ -7,3 +7,4 @@ minikube version
 
 
 # imp commands 
+# mini
