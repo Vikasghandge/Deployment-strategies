@@ -11,4 +11,5 @@ spec:
       app: blue
   template: 
     metadata:
-     labe        
+     labels: 
+      app:         
