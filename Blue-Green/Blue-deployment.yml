@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata: 
   name: blue-service
-  version: 
+  version: blue 
   labels:
     app: blue
 spec:
