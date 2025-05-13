@@ -6,9 +6,6 @@ metadata:
     app: rolling
 spec:
   strategy:
-    rollingUpdate:
-      maxSurge: 25%
-      maxUnavailable: 25%
     type: RollingUpdate
   replicas: 20
   selector:
