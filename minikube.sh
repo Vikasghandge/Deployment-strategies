@@ -9,4 +9,4 @@ minikube version
 # imp commands 
 # minikube status should ruuning everything
 # minikube ip  -- this will print ip
-# minikube start --driver
+# minikube start --driver=docker --force
