@@ -14,7 +14,7 @@ spec:
   template:
     metadata:
       labels:
-        app: rolling
+        app: Recreate
     spec:
       containers:
       - name: rolling-container
