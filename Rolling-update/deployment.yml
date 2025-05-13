@@ -6,7 +6,10 @@ metadata:
     app: rolling
 spec:
   strategy:
-    type: Recrate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
   replicas: 20
   selector:
     matchLabels:
