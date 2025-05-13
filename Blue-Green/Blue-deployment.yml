@@ -3,7 +3,7 @@ kind: Deployment
 metadata: 
   name: blue-service
   labels:
-    app: blue
+    app: app-blue
     version: blue 
 spec:
   replicas: 10
