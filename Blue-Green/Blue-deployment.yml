@@ -10,4 +10,5 @@ spec:
     matchLabel: 
       app: blue
   template: 
-    meta        
+    metadata:
+     labe        
