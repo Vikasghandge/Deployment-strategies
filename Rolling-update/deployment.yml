@@ -6,7 +6,7 @@ metadata:
     app: rolling
 spec:
   strategy:
-    type: RollingUpdate
+    type: Recrate
   replicas: 20
   selector:
     matchLabels:
