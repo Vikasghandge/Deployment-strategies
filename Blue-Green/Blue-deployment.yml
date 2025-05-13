@@ -15,4 +15,4 @@ spec:
       app: blue
     spec: 
       containers: 
-      -               
+      - name:               
