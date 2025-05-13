@@ -9,4 +9,5 @@ spec:
   selector:
     matchLabel: 
       app: blue
-  templ        
+  template: 
+    meta        
