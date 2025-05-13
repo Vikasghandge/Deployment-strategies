@@ -8,4 +8,4 @@ minikube version
 
 # imp commands 
 # minikube status should ruuning everything
-#
+# minikube 
