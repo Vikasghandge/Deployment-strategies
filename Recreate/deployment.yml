@@ -10,11 +10,11 @@ spec:
   replicas: 20
   selector:
     matchLabels:
-      app: rolling
+      app: Recreate
   template:
     metadata:
       labels:
-        app: rolling
+        app: create
     spec:
       containers:
       - name: rolling-container
