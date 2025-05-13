@@ -11,5 +11,5 @@ minikube version
 # minikube ip  -- this will print ip
 # minikube start --driver=docker --force
 # kubectl get pods -A --> this will show all pods including namespaces.
-# kubectl get svc --> check service 
+# kubectl get svc --> check service node port 
 # how to access pods --> curl http://<minikube_ip>:<port number>/
