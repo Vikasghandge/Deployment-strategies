@@ -26,7 +26,6 @@ spec:
 ---
 apiVersion: v1 
 kind: Service
-apiVersion: v1
 metadata:
   name:  Service Name
 spec:
