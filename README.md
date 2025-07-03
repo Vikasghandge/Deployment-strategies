@@ -1,4 +1,5 @@
 # Deployment stage and info 
+```
 apiVersion: apps/v1                  # API version for Deployment resource
 kind: Deployment                     # Resource type (Deployment in this case)
 metadata:                            # Metadata section for resource information
@@ -68,3 +69,4 @@ spec:                                # Desired state specification
       - name: temp-volume
         emptyDir:                     # Temporary volume
           sizeLimit: 16Mi             # Size limit for temporary storage
+```
